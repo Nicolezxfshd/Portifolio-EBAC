@@ -1,0 +1,20 @@
+body{
+display: flex;
+background-color: blanchedalmond;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin: 0;
+height: 100vh;
+
+}
+button {
+  background-color: blue;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px gray;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #70B7E0;
+}
+
